@@ -1,0 +1,134 @@
+.home-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+    /* background-image: url("boat.jpeg");
+    height: 100vh; */
+}
+.home-back{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+.image-side{
+  border-radius: 20%;
+  position: absolute;
+  right: 0;
+  top: 60px;
+  right: 10px;
+  height: 400px;
+  width: 350px;
+}
+
+.main-heading{
+   
+    position: absolute;
+    top: 80px;
+    font-style:initial;
+    padding: 8px;
+   
+    
+}
+.main-heading h1{
+    color: rgb(219, 212, 226);
+    font-family: "";
+    font-size: 58px;
+}
+.main-heading p{
+    color: rgb(206, 128, 25);
+    font-size: 40px;
+    font-family: "Roboto";
+}
+.button{
+    position: absolute;
+    top:350px;
+    left: 100px;
+    background-color: transparent;
+    color: rgb(50, 222, 147);
+    border-color: aqua;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width:600px){
+
+    .home-container{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url("./images/boat.jpeg");
+    background-size: cover; */
+    
+    
+
+    }
+    .main-heading{
+   
+        position: absolute;
+        top: 70px;
+        /* left: 40px; */
+        font-style:normal
+        /* max-width: 50%;; */
+        
+        
+    }
+
+.main-heading h1{
+    color: rgb(188, 180, 195);
+    font-family: "";
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 4px;
+    
+}
+.main-heading p{
+    color: rgb(206, 128, 25);
+    font-size: 20px;
+    font-family: "Roboto";
+    text-align: center;
+    position: relative;
+    margin-bottom: 6px;
+}
+.button{
+    position: absolute;
+    top:420px;
+    
+    background-color: transparent;
+    color: rgb(251, 252, 252);
+    border-color: aqua;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+    /* .side-image{
+        position: relative;
+
+    } */
+    .image-side{
+        border-radius: 20%;
+        position: absolute;
+        height: 300px;
+        top: 40%;
+        translate: -20%;
+        height: 200px;
+        width: 200px;
+        
+       
+      }
+     
+    }

@@ -1,0 +1,30 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(103, 206, 224);
+    position: relative;
+    position: sticky;
+    
+    
+  
+    
+    
+}
+nav a.active{
+    font-weight: bold;
+    color: black
+    
+    
+}
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    font-family: "Roboto";
+    
+   
+}
+.image{
+margin-left: 18px;
+}
