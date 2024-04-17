@@ -5,7 +5,7 @@ import './style.css'
 const Navbar = () => {
   return (
     <div className="nav-container">
-        <img src='../images/card2.png' alt="logo" className='image' style={{height:50,width:50}}/>
+        <img src='/images/card2.png' alt="logo" className='image' style={{height:50,width:50}}/>
       <nav>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
