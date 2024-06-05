@@ -1,0 +1,83 @@
+
+.home{
+  
+    position: relative;
+    z-index: -1;
+}
+.buttons{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    cursor: pointer;
+}
+.back{
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+    
+    background-color: rgba(230, 230, 230, 0);
+}
+.heading{
+   padding-top: 20px;
+   font-variant: small-caps;
+   font-size: 30px;
+   margin: 10px;
+   color: rgb(210, 165, 30);
+   position: absolute;
+   left: 0;
+   top: 0;
+   
+}
+.heading h2 p{
+    color: rgb(168, 172, 168);
+}
+.photos{
+    position: absolute;
+    right: 0;
+    top:10px;
+    border-radius: 50%;
+    margin: 12px;
+    height: 300px;
+    width: 300px;
+   
+    box-shadow:inset;
+    border: 1px solid wheat;
+}
+@media screen and (max-width:574px) {
+    
+    .heading{
+        padding-top: 20px;
+        font-variant: small-caps;
+        font-size: 20px;
+        padding: 20px;
+        position: relative;
+        position: absolute;
+        right: 8px;
+        text-align: center;
+       
+     }
+     .buttons{
+        position: absolute;
+        top: 400px;
+        left: 130px;
+        cursor: pointer;
+     
+    }
+     .photos{
+        
+        position: absolute;
+        align-items: center;
+        top:150px;
+        border-radius: 50%;
+      transform: translate(-10%);
+        height: 200px;
+        width: 80%;
+      
+    }
+    .home{
+        z-index: -1;
+    }
+    
+}

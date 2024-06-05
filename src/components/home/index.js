@@ -1,26 +1,36 @@
 import React from 'react'
-import "./style.css";
-const Home = () => {
-  return (
-    <div className='home-container'>
-      <img src={'/images/fish5.jpg'} className='home-back' alt= 'background'/>
-      <div className='main-heading'>
-      <h1 >Online Fish Marketing</h1>
-      
-      <p> Only Available In ALAMPUR
+import './add.css'
+import Login from '../login'
+import About from '../about'
+// import Items from '../items/Items'
+import { NavLink } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-      </p>
-      
-      <li>Coming Soon...</li>
-     
-      </div>
-      <div className='side-image'>
-        <img src={'/images/side-image.jpeg'} alt='fish'  className='image-side' />
+const Home = () => {
+  
+  
+  return (
+    <>
+    <div className='home'>
+      <img src="bgleaves.jpg" alt='back' className='back'/>
+       <div className='heading' style={{textAlign:'center'}}>
+        <h2>Online Fish Serves</h2>
+        <p style={{color:'red', fontFamily:"cursive"}}>comming soon</p>
+        <p style={{color:'white'}}>I Will Start Next Month</p>
+        </div>
+        <img src='fishbg.png' className="photos" alt='backgroundImg' />
         
-      </div>
-      <button className='button'>Booking</button>
-      
-    </div>
+         <NavLink to="/items" className='btn btn-danger buttons' 
+          
+         >Click Here</NavLink>
+         
+        </div>
+    
+    
+    <About/>
+   
+    <Login/>
+    </>
   )
 }
 
