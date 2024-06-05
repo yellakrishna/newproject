@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/newproject/static/css/main.61eef450.css",
-    "main.js": "/newproject/static/js/main.c932101f.js",
-    "index.html": "/newproject/index.html",
-    "main.61eef450.css.map": "/newproject/static/css/main.61eef450.css.map",
-    "main.c932101f.js.map": "/newproject/static/js/main.c932101f.js.map"
+    "main.css": "/online-fish-market/static/css/main.91ff1e21.css",
+    "main.js": "/online-fish-market/static/js/main.cea1cbdc.js",
+    "index.html": "/online-fish-market/index.html",
+    "main.91ff1e21.css.map": "/online-fish-market/static/css/main.91ff1e21.css.map",
+    "main.cea1cbdc.js.map": "/online-fish-market/static/js/main.cea1cbdc.js.map"
   },
   "entrypoints": [
-    "static/css/main.61eef450.css",
-    "static/js/main.c932101f.js"
+    "static/css/main.91ff1e21.css",
+    "static/js/main.cea1cbdc.js"
   ]
 }
