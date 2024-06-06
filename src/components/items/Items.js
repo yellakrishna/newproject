@@ -1,6 +1,7 @@
 import React from 'react'
 import './Items.css'
 
+
 let data=[
     {
       id:1,
@@ -61,7 +62,7 @@ const Items = () => {
          <img src={img} alt='gold-fish' style={{height:80, width:100}}/>
          <h6 className='text-warning bg-secondary'><span className='text-white'>Name: </span>{name}</h6>
          <p>price: {price}</p>
-         <button className='btn btn-success'>Add</button>
+         <button  className='btn btn-success'>Add</button>
          </div>
           
           

@@ -5,6 +5,7 @@ import About from '../about'
 // import Items from '../items/Items'
 import { NavLink } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Items from '../items/Items'
 
 const Home = () => {
   
@@ -13,6 +14,7 @@ const Home = () => {
     <>
     <div className='home'>
       <img src="bgleaves.jpg" alt='back' className='back'/>
+      <div>
        <div className='heading' style={{textAlign:'center'}}>
         <h2>Online Fish Serves</h2>
         <p style={{color:'red', fontFamily:"cursive"}}>comming soon</p>
@@ -20,13 +22,15 @@ const Home = () => {
         </div>
         <img src='fishbg.png' className="photos" alt='backgroundImg' />
         
-         <NavLink to="/items" className='btn btn-danger buttons' 
+        
+       <butoon><NavLink to="/items" className='btn btn-danger buttons' 
           
-         >Click Here</NavLink>
+         >Click Here</NavLink></butoon>
          
         </div>
+        </div>
     
-    
+    <Items/>
     <About/>
    
     <Login/>
