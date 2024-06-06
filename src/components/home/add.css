@@ -6,8 +6,8 @@
 }
 .buttons{
     position: absolute;
-    top: 250px;
-    left: 100px;
+    top: 400px;
+    left: 200px;
     cursor: pointer;
 }
 .back{
@@ -16,8 +16,9 @@
     height: 100vh;
     width: 100%;
     
-    
-    background-color: rgba(230, 230, 230, 0);
+}
+.heading h2{
+    font-size: 50px;
 }
 .heading{
    padding-top: 20px;
@@ -26,8 +27,8 @@
    margin: 10px;
    color: rgb(210, 165, 30);
    position: absolute;
-   left: 0;
-   top: 0;
+   left: 50px;
+   top: 150px;
    
 }
 .heading h2 p{
@@ -35,12 +36,12 @@
 }
 .photos{
     position: absolute;
-    right: 0;
-    top:10px;
+    right: 25px;
+    top:100px;
     border-radius: 50%;
     margin: 12px;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
    
     box-shadow:inset;
     border: 1px solid wheat;
@@ -54,14 +55,19 @@
         padding: 20px;
         position: relative;
         position: absolute;
-        right: 8px;
+        right: 30px;
+        top: 10px;
         text-align: center;
+        align-items: center;
        
      }
+     .heading h2{
+        font-size: 30px;
+    }
      .buttons{
         position: absolute;
-        top: 400px;
-        left: 130px;
+        top: 530px;
+        left: 180px;
         cursor: pointer;
      
     }
@@ -69,15 +75,23 @@
         
         position: absolute;
         align-items: center;
-        top:150px;
+        top:200px;
         border-radius: 50%;
       transform: translate(-10%);
-        height: 200px;
-        width: 80%;
+        height: 300px;
+        width: 300px;
       
     }
     .home{
         z-index: -1;
+        
+    }
+    .back{
+        background-position: center;
+        background-size: cover;
+        height: 70vh;
+        width: 100%;
+        
     }
     
 }

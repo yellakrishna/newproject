@@ -58,7 +58,7 @@ const Items = () => {
         return(
           <div className='items'>
          <li key={id}></li>
-         <img src={img} alt='gold-fish' style={{height:70, width:100}}/>
+         <img src={img} alt='gold-fish' style={{height:80, width:100}}/>
          <h6 className='text-warning bg-secondary'><span className='text-white'>Name: </span>{name}</h6>
          <p>price: {price}</p>
          <button className='btn btn-success'>Add</button>
