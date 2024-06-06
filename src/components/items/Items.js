@@ -1,5 +1,6 @@
 import React from 'react'
 import './Items.css'
+import { NavLink } from "react-router-dom";
 
 
 let data=[
@@ -62,8 +63,9 @@ const Items = () => {
          <img src={img} alt='gold-fish' style={{height:80, width:100}}/>
          <h6 className='text-warning bg-secondary'><span className='text-white'>Name: </span>{name}</h6>
          <p>price: {price}</p>
-         <button  className='btn btn-success'>Add</button>
-         </div>
+         <NavLink to="/contact" className="btn btn-success">
+                  Add
+                </NavLink>
           
           
         )
