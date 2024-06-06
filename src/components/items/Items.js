@@ -66,7 +66,7 @@ const Items = () => {
          <NavLink to="/contact" className="btn btn-success">
                   Add
                 </NavLink>
-          
+      </div>
           
         )
       })
